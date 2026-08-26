@@ -18,7 +18,7 @@
 		keywords = 'sydney,live music,gig guide,community,shows,diy,listings,music writing,nightlife',
 		canonical,
 		type,
-		image = 'https://sydneymusic.net/social-image.png',
+		image = 'https://smallnoise.netlify.app/social-image.png',
 		imageWidth = 1200,
 		imageHeight = 630
 	} = $props();
