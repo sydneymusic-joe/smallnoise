@@ -196,7 +196,6 @@
 			</div>
 			<div class="space-y-3">
 				<Button label="Join the Discord!" href="https://discord.gg/jv8VKrXymJ" />
-				<Button label="Other links" href="/links" />
 			</div>
 		</div>
 	</div>

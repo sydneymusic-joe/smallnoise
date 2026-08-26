@@ -8,7 +8,6 @@ export const previewMode =
 export const navigation = [
 	{ title: 'Gigs', href: '/gig-guide' },
 	{ title: 'Venues', href: '/gig-guide/venues' },
-	{ title: 'Reads', href: '/reads' },
 	{ title: 'Merch', href: 'https://store.sydneymusic.net' }
 ];
 
@@ -30,9 +29,7 @@ export const navigationFooterSupport = [
 export const navigationFooterAbout = [
 	{ title: 'About', href: '/about' },
 	{ title: 'AI Policy', href: '/about/ai-policy' },
-	{ title: 'Reads', href: '/reads' },
 	{ title: 'Contact', href: '/contact' },
-	{ title: 'Links', href: '/links' },
 	{ title: 'License our API', href: '/api-license' }
 ];
 
