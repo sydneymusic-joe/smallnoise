@@ -44,20 +44,13 @@
 			
 		</div>-->
 
-<div class="py-5 md:py-8 h-48 md:h-72 relative" style="background-image : url(/teebg.jpg); background-size : cover; background-position : center 35%">
-		<div class="flex flex-col items-center justify-items-end h-full">
-			<Button href="https://store.sydneymusic.net" class="text-md bg-white" variant="outline" label="T-shirts shipping now!">
-				
-			</Button>
-	</div>
-</div>
 <div class="max-w-5xl flex flex-col md:flex-row px-5 mx-auto overflow-x-clip pt-5 md:pt-10">
 	<div class="contents md:flex md:flex-col space-y-5">
 		<!-- header -->
 		<div class="place-self-center md:place-self-auto">
 			<div class="flex justify-center md:mr-10">
 				<Heading level={1} variant="md" class="mt-5 md:mt-0 mb-10 stretch uppercase font-normal text-center sm:max-w-lg" style="line-height : 1">
-					Welcome to Sydney’s most comprehensive gig guide
+					Your guide to everything else happening in Brisbane
 				</Heading>
 			</div>
 			<div class="font-semibold text-center md:mr-10">There are {new Intl.NumberFormat("en-AU").format(data.gigs.totalCount)} gigs to be explored below.</div>
@@ -145,7 +138,6 @@
 		</div>
 		<!-- right col -->
 		<div class="space-y-5 mt-20">
-			<Playlist showtitle="true" />
 			<Heading level={3} variant="md" class="notch-left">About this guide</Heading>
 			<div class="prose prose-sm">
 				<p>
