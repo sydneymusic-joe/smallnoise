@@ -64,7 +64,7 @@
 			
 		</div>
 		<!-- gig guide -->
-		<div class="md:pr-10 gigcolumn">
+		<div class="gigcolumn">
 			<h4 class="mb-2 uppercase text-sm font-semibold text-ruby">Filter:</h4>
 			<div class="filterbox w-full mb-5">
 				<label for="toggle-freegigs" class="flex items-center cursor-pointer relative">
