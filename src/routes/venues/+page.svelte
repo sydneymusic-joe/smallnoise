@@ -41,7 +41,7 @@
 						{#if _allReferencingEventsMeta.count > 0}
 							<dt>
 								<a
-									href="/gig-guide/venues/{slug}"
+									href="/venues/{slug}"
 									class={`hover:text-ruby transition-colors duration-100 ease-in-out ${
 										isRip && 'rip'
 									}`}

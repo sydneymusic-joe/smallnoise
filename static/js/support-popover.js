@@ -7,7 +7,7 @@ const supportPopoverConfig = [
 	},
 	{
 		key: 'savedPromoVenues',
-		route: '/gig-guide/venues',
+		route: '/venues',
 		delay: 1000,
 		localStorageKey: 'supportDonorPopover'
 	}

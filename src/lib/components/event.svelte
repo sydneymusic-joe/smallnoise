@@ -69,7 +69,7 @@
 		<p class="text-sm text-neutral-500">
 			<span class="time">{time}</span>
 			{#if venue}<a
-					href="/gig-guide/venues/{venue.slug}"
+					href="/venues/{venue.slug}"
 					class="venue hover:underline hover:text-black transition-colors duration-100 ease-in-out"
 					>{venue.venueName}</a
 				>{/if}

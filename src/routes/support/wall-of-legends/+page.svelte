@@ -38,7 +38,7 @@
 
 			<div class="max-w-xl mx-auto mt-8">
 
-				<Heading class="text-center">The <a href="/gig-guide" class="text-ruby underline">gig guide</a> is made possible by ...</Heading>
+				<Heading class="text-center">The <a href="/" class="text-ruby underline">gig guide</a> is made possible by ...</Heading>
 
 			<div class="relative pl-8 space-y-8">
 				<div class="absolute left-0 top-2 bottom-0 w-[1px] bg-gray-400"></div>

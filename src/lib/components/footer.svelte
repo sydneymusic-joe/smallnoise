@@ -62,7 +62,7 @@
 				</div>
 
 				<div class="space-y-3">
-					<Heading level={2} class="text-white" variant="md"><a class="no-underline hover:underline" href="/gig-guide">Music</a></Heading>
+					<Heading level={2} class="text-white" variant="md"><a class="no-underline hover:underline" href="/">Music</a></Heading>
 					{#each navigationFooterMusic as item}
 						<a
 							href={item.href}

@@ -32,7 +32,7 @@
 
 			<Paragraph
 				>We’re about to start implementing a sponsorship model to support <a
-					href="/gig-guide"
+					href="https://sydneymusic.net/gig-guide"
 					class="text-ruby underline">Sydney’s most comprehensive gig guide</a
 				>. We’re keen to chat to live music-loving local businesses as we embark on this journey.</Paragraph
 			>
