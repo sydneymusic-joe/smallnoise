@@ -23,7 +23,7 @@
 		<div>
 			<span class="font-semibold text-lg text-ruby">FY27 Fundraising Appeal	</span>
 			<div class="text-sm">
-			We’ve raised <strong class="font-semibold">{mds.totalFundedPercent}%</strong> of our goal.<br />Help us cover our costs!<br /><a href="/support" class="underline font-semibold">Donate today</a> • Tax deductible
+			We’ve raised <strong class="font-semibold">{mds.totalFundedPercent}%</strong> of our goal.<br />Help us cover our costs!<br /><a href="https://sydneymusic.net/support" target="_blank" class="underline font-semibold">Donate today</a> • Tax deductible
 			</div>
 		</div>
 		<div><img src="/padlock.svg" class="h-14" /></div>

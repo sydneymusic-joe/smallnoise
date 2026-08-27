@@ -50,15 +50,16 @@
 		<div class="place-self-center md:place-self-auto">
 			<div class="flex justify-center">
 				<Heading level={1} variant="md" class="mt-5 md:mt-0 mb-10 stretch uppercase font-normal text-center sm:max-w-lg" style="line-height : 1">
-					Your guide to <span class="text-ruby">everything else</span> happening in Brisbane
+					Your trusty guide for<br /><span class="text-ruby">unofficial showcases</span>
 				</Heading>
 			</div>
 			<div class="font-semibold text-center">There are {new Intl.NumberFormat("en-AU").format(data.gigs.totalCount)} gigs to be explored below.</div>
 
 			<div class="space-y-5 mt-5">
-				<div class="text-md text-center">This unofficial sideshow guide was created in a couple of hours by copying <a href="https://github.com/sydneymusic-joe/sydneymusic" class="underline">SydneyMusic.net’s codebase</a>. You can do the same for your region or community — gig guides get more people out to shows.</div>
+				<div class="flex place-content-center"><Button label="Submit a gig" variant="primary" href="mailto:joe@sydneymusic.net" /></div>
 				<div class="text-sm text-center"><strong>Finding this useful?</strong> <a href="https://sydneymusic.net/support" class="underline">You can make a tax deductible donation</a> to support our work.</div>
-				<div class="text-sm text-center"><strong>We are hiring!</strong> Thanks to the support of Sound NSW we have 3 contract roles currently open for applications from NSW applicants. <a href="https://sydneymusic.net/jobs" class="underline">More info.</a></div>
+				<div class="text-sm text-center"><strong>We are hiring!</strong> Thanks to the support of Sound NSW we have 3 contract roles currently open to NSW applicants. <a href="https://sydneymusic.net/jobs" class="underline">More info.</a></div>
+				<div class="text-sm text-center"><strong>Want to create a gig guide for your community or region?</strong><br />We can help! <a href="mailto:contact@sydneymusic.net" class="underline">Get in touch</a></div>
 				<div class="text-xs text-center italic">This resource was created by <a href="https://sydneymusic.net" class="underline" target="_blank">SydneyMusic.net</a><br />with gig sourcing courtesy of Callum from <a href="https://au.skramz.directory/" class="underline" target="_blank">aus skramz directory</a></div>
 			</div>
 			
