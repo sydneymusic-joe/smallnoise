@@ -14,11 +14,11 @@
 	/** @type {Props} */
 	let {
 		title = $bindable(''),
-		description = 'SydneyMusic.net is your guide to music in Sydney, with a gig guide, a Discord community and stuff to read.',
-		keywords = 'sydney,live music,gig guide,community,shows,diy,listings,music writing,nightlife',
+		description = 'smallnoise is your guide to unofficial showcases taking place in Brisbane.',
+		keywords = 'brisbane,bigsound,live music,gig guide,community,shows,diy,listings,music writing,nightlife',
 		canonical,
 		type,
-		image = 'https://smallnoise.netlify.app/social-image.png',
+		image = 'https://smallnoise.sydneymusic.net/social-image.png',
 		imageWidth = 1200,
 		imageHeight = 630
 	} = $props();
