@@ -44,23 +44,22 @@
 			
 		</div>-->
 
-<div class="max-w-5xl flex flex-col md:flex-row px-5 mx-auto overflow-x-clip pt-5 md:pt-10">
+<div class="max-w-xl flex flex-col md:flex-row px-5 mx-auto overflow-x-clip pt-5 md:pt-10">
 	<div class="contents md:flex md:flex-col space-y-5">
 		<!-- header -->
 		<div class="place-self-center md:place-self-auto">
-			<div class="flex justify-center md:mr-10">
+			<div class="flex justify-center">
 				<Heading level={1} variant="md" class="mt-5 md:mt-0 mb-10 stretch uppercase font-normal text-center sm:max-w-lg" style="line-height : 1">
-					Your guide to everything else happening in Brisbane
+					Your guide to <span class="text-ruby">everything else</span> happening in Brisbane
 				</Heading>
 			</div>
-			<div class="font-semibold text-center md:mr-10">There are {new Intl.NumberFormat("en-AU").format(data.gigs.totalCount)} gigs to be explored below.</div>
-			<!--<div class="flex flex-col items-center md:mr-10 my-5 gap-y-5">
-				<div class="w-[75%]"><a href="/support/tote"><img src="/pdtote.png" class="w-full max-w-[500px]" style="box-shadow : 10px 10px 0px rgba(0,0,0,0.5); border : solid 3px black" /></a></div>
-				<div class="text-center text-sm"><strong>WATCH:</strong> <a href="/support/tote" class="underline">Party Dozen launch new fundraiser!</a></div>
-			</div>-->
+			<div class="font-semibold text-center">There are {new Intl.NumberFormat("en-AU").format(data.gigs.totalCount)} gigs to be explored below.</div>
 
-			<div class="mt-5">
-			<DonationForm />
+			<div class="space-y-5 mt-5">
+				<div class="text-sm text-center"><strong>Want your own gig guide?</strong> This site was created in a couple of hours using <a href="https://github.com/sydneymusic-joe/sydneymusic" class="underline">SydneyMusic.net’s codebase</a>. You can do the same, totally free! <a href="mailto:contact@sydneymusic.net" class="underline">Talk to us</a> if you’re interested in deploying a gig guide for your region or community.</div>
+				<div class="text-sm text-center"><strong>Finding this useful?</strong> <a href="https://sydneymusic.net/support" class="underline">You can make a tax deductible donation</a> to support our work.</div>
+				<div class="text-sm text-center"><strong>We are hiring!</strong> Thanks to the support of Sound NSW we have 3 contract roles currently open for applications from NSW applicants. <a href="https://sydneymusic.net/jobs" class="underline">More info.</a></div>
+				<div class="text-xs text-center italic">This resource was created by <a href="https://sydneymusic.net" class="underline" target="_blank">SydneyMusic.net</a><br />with gig sourcing courtesy of Callum from <a href="https://au.skramz.directory/" class="underline" target="_blank">Skramz4Life</a></div>
 			</div>
 			
 		</div>
@@ -129,66 +128,6 @@
 					{/each}
 				</div>
 			{/each}
-		</div>
-	</div>
-
-	<!-- First section -->
-	<div class="contents md:flex md:flex-col">
-		<div class="mb-5 md:mb-0 w-[350px] place-self-center">
-		</div>
-		<!-- right col -->
-		<div class="space-y-5 mt-20">
-			<Heading level={3} variant="md" class="notch-left">About this guide</Heading>
-			<div class="prose prose-sm">
-				<p>
-					This guide is as simple as we can practically get away with. We’ll include some occasional
-					commentary (feel free to submit your own!) to help give you context on what can be a
-					dizzyingly complex network of musicians, collectives, communities, and spaces, or just
-					make sure you don’t miss out on catching your next favourite act.
-				</p>
-				<p>
-					Got a gig you think should be listed here? <a href="mailto:gigs@sydneymusic.net"
-						>Send our friendly team of Gig Researchers an email!</a
-					>
-				</p>
-			</div>
-			<div class="space-y-3">
-				<Button label="Submit a gig" href="mailto:gigs@sydneymusic.net" />
-			</div>
-
-			<div class="prose prose-sm">
-				<p>
-					<span class="font-bold text-sm">Artists, managers, promoters, and venues:</span><br />
-					Self-promo is fine — we love it when you let us know what you’ve got going on! But we won’t
-					publish your marketing/social copy verbatim or give you special consideration in the guide.
-					We generally don’t list cover/tribute bands or background-music sets at hospitality venues.
-					All listings are at our own discretion. We will also graciously refuse any offer of door spots
-					for shows where we can buy tickets.
-				</p>
-
-				<p>
-					<strong>Affiliate disclosure:</strong><br />
-					To keep SydneyMusic.net running, we’re testing out affiliate links programs with several ticketing
-					providers. This means we may receive a little bit of money if you click through and buy tickets
-					to a gig via the links here in the guide. We’re not tracking you, we still don’t have ads or
-					cookies, and nothing else about our gig guide changes – we will never base any decisions about
-					which gigs we highlight or list on whether they’re ticketed through a certain provider or not.
-					And we’re still committed to total transparency. We’re just getting a little back for the clicks
-					we send to big and medium ticketing companies – and buying tickets to shows at all levels is
-					still one of the best ways to support our whole community.
-				</p>
-				<p>
-					For more about how affiliate links work, or any other questions, feedback, and ideas about
-					how to keep SydneyMusic sustainable, send us a message via <a
-						href="mailto:contact@sydneymusic.net">e-mail</a
-					>
-					or <a href="https://instagram.com/sydneymusicdotnet">@sydneymusicdotnet on Instagram</a>,
-					or <a href="https://discord.gg/hpe2EVZZ">join our Discord</a>.
-				</p>
-			</div>
-			<div class="space-y-3">
-				<Button label="Join the Discord!" href="https://discord.gg/jv8VKrXymJ" />
-			</div>
 		</div>
 	</div>
 </div>
