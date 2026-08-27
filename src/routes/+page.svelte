@@ -59,7 +59,7 @@
 				<div class="text-md text-center">This unofficial sideshow guide was created in a couple of hours by copying <a href="https://github.com/sydneymusic-joe/sydneymusic" class="underline">SydneyMusic.net’s codebase</a>. You can do the same for your region or community — gig guides get more people out to shows.</div>
 				<div class="text-sm text-center"><strong>Finding this useful?</strong> <a href="https://sydneymusic.net/support" class="underline">You can make a tax deductible donation</a> to support our work.</div>
 				<div class="text-sm text-center"><strong>We are hiring!</strong> Thanks to the support of Sound NSW we have 3 contract roles currently open for applications from NSW applicants. <a href="https://sydneymusic.net/jobs" class="underline">More info.</a></div>
-				<div class="text-xs text-center italic">This resource was created by <a href="https://sydneymusic.net" class="underline" target="_blank">SydneyMusic.net</a><br />with gig sourcing courtesy of Callum from <a href="https://au.skramz.directory/" class="underline" target="_blank">Skramz4Life</a></div>
+				<div class="text-xs text-center italic">This resource was created by <a href="https://sydneymusic.net" class="underline" target="_blank">SydneyMusic.net</a><br />with gig sourcing courtesy of Callum from <a href="https://au.skramz.directory/" class="underline" target="_blank">aus skramz directory</a></div>
 			</div>
 			
 		</div>
