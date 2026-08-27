@@ -4,7 +4,7 @@
 	let { data } = $props();
 </script>
 
-<SeoSocial title="Live Music Venues in Sydney" />
+<SeoSocial title="Live Music Venues in Brisbane" />
 
 <picture>
 	<source
@@ -20,27 +20,11 @@
 </picture>
 
 <div class="max-w-5xl px-5 mt-10 mx-auto">
-	<Heading level={1} variant="xl" class="notch-left mb-5">Live Music Venues in Sydney</Heading>
+	<Heading level={1} variant="xl" class="notch-left mb-5">Live Music Venues in Brisbane</Heading>
 
 	<div class="px-3 prose max-w-[100%] mb-10">
 		<p>
-			Here’s every live music venue in Sydney that's hosted gigs since SydneyMusic's inception in
-			2022.
-		</p>
-		<p>
-			Whether you’re looking for the best gigs in your neighbourhood, planning an Inner West music
-			crawl across the free front bar shows of Newtown, or scoping out potential stages for your
-			band's EP launch, the live venue that's right for you is right here.*
-		</p>
-		<p>
-			Scroll by suburb, click the venue name to see gig listings for this week and beyond, and don't
-			forget to pour one out for the Sydney live music venues that have closed their doors (marked
-			with a 🕯️).
-		</p>
-		<p class="text-xs">
-			* Unless it's not! If we're missing your venue or don't have a gig listing, please <a
-				href="/contact">let us know</a
-			>. Venues will appear here once at least one gig has been listed in the guide.
+			Here’s every live music venue hosting an unofficial BIGSOUND sideshow this year.
 		</p>
 	</div>
 

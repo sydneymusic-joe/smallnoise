@@ -6,31 +6,31 @@ export const previewMode =
 
 // ToDo get this from contentful?
 export const navigation = [
-	{ title: 'Gigs', href: '/gig-guide' },
-	{ title: 'Venues', href: '/gig-guide/venues' },
+	{ title: 'Gigs', href: '/' },
+	{ title: 'Venues', href: '/venues' },
 	{ title: 'Merch', href: 'https://store.sydneymusic.net' }
 ];
 
 export const navigationFooterMusic = [
 	{ title: 'Home', href: '/' },
-	{ title: 'Sydney Gig Guide', href: '/gig-guide' },
-	{ title: 'Venue Directory', href: '/gig-guide/venues' },
-	{ title: 'Weekly Gig Guide Playlist', href: '/playlist' }
+	{ title: 'Sydney Gig Guide', href: 'https://sydneymusic.net/gig-guide' },
+	{ title: 'Venue Directory', href: 'https://sydneymusic.net/gig-guide/venues' },
+	{ title: 'Weekly Gig Guide Playlist', href: 'https://sydneymusic.net/playlist' }
 ];
 
 export const navigationFooterSupport = [
-	{ title: 'Make a Donation', href: '/support' },
-	{ title: 'Commercial Sponsorship', href: '/support/commercial' },
-	{ title: 'Wall of Legends', href: '/support/wall-of-legends' },
+	{ title: 'Make a Donation', href: 'https://sydneymusic.net/support' },
+	{ title: 'Commercial Sponsorship', href: 'https://sydneymusic.net/support/commercial' },
+	{ title: 'Wall of Legends', href: 'https://sydneymusic.net/support/wall-of-legends' },
 	{ title: 'Merch Store', href: 'https://store.sydneymusic.net' },
 	{ title: 'Join the Discord!', href: 'https://discord.gg/jv8VKrXymJ' }
 ];
 
 export const navigationFooterAbout = [
-	{ title: 'About', href: '/about' },
-	{ title: 'AI Policy', href: '/about/ai-policy' },
-	{ title: 'Contact', href: '/contact' },
-	{ title: 'License our API', href: '/api-license' }
+	{ title: 'About', href: 'https://sydneymusic.net/about' },
+	{ title: 'AI Policy', href: 'https://sydneymusic.net/about/ai-policy' },
+	{ title: 'Contact', href: 'https://sydneymusic.net/contact' },
+	{ title: 'License our API', href: 'https://sydneymusic.net/api-license' }
 ];
 
 export const formatDay = (dateOrString) => {

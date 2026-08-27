@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import { navigation } from '../globals.mjs';
-	import Logo from './logo.svelte';
+	import Logo from './logo-sn.svelte';
 	import IconInstagram from './icon-instagram.svelte';
 	import Button from './button.svelte';
 	import { mds } from '../donorstats.js';
