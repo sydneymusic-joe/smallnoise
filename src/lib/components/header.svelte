@@ -18,7 +18,7 @@
 </script>
 
 <header>
-	<div class="bg-black text-white py-3 text-center flex flex-row justify-center items-center gap-x-5">
+	<div class="bg-black text-white py-3 text-center flex flex-row justify-center items-center gap-x-3">
 		<div><img src="/banksia.svg" class="h-14" /></div>
 		<div>
 			<span class="font-semibold text-lg text-ruby">SydneyMusic needs your help!</span>
