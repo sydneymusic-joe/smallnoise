@@ -21,24 +21,28 @@
 	<div class="bg-black text-white py-3 text-center flex flex-row justify-center items-center gap-x-5">
 		<div><img src="/banksia.svg" class="h-14" /></div>
 		<div>
-			<span class="font-semibold text-lg text-ruby">FY27 Fundraising Appeal	</span>
+			<span class="font-semibold text-lg text-ruby">SydneyMusic needs your help!</span>
 			<div class="text-sm">
-			We’ve raised <strong class="font-semibold">{mds.totalFundedPercent}%</strong> of our goal.<br />Help us cover our costs!<br /><a href="https://sydneymusic.net/support" target="_blank" class="underline font-semibold">Donate today</a> • Tax deductible
+			 We have raised <strong class="font-semibold">{mds.totalFundedPercent}%</strong> of our goal.<br /><a href="https://sydneymusic.net/support" target="_blank" class="underline font-semibold">Donate today</a> • Tax deductible
 			</div>
 		</div>
 		<div><img src="/padlock.svg" class="h-14" /></div>
 	</div>
-	<div class="lg:hidden flex justify-center">
+	<div class="lg:hidden flex items-center flex-col">
 		<a href="/" class="mt-3">
 			<Logo size="sm" stickers={false} />
 		</a>
+		<div class="text-center text-sm">by <a href="https://sydneymusic.net" target="_blank" class="underline">SydneyMusic.net</a></div>
 	</div>
 
 	<nav class="max-w-5xl lg:px-5 mx-auto mt-5 lg:mt-15 mb-5 space-y-5">
 		<div class="w-full flex justify-between items-center">
-			<a href="/" class="hidden lg:block shrink-0">
-				<Logo size="sm" stickers={false} />
-			</a>
+			<div class="hidden lg:block shrink-0">
+				<a href="/">
+					<Logo size="sm" stickers={false} />
+				</a>
+				<div class="text-right text-sm">by <a href="https://sydneymusic.net" target="_blank" class="underline">SydneyMusic.net</a></div>
+			</div>
 
 			<div class="navbar relative flex-wrap lg:flex-nowrap">
 				{#each navigation as item}
@@ -60,7 +64,7 @@
 					<IconInstagram />
 				</a>
 
-				<a href="/support"
+				<a href="https://sydneymusic.net/support" target="_blank"
 				class="support cursor-pointer"
 				>
 					Donate!

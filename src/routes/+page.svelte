@@ -48,7 +48,7 @@
 	<div class="contents md:flex md:flex-col space-y-5">
 		<!-- header -->
 		<div class="place-self-center md:place-self-auto">
-			<div class="flex justify-center">
+			<div class="flex justify-center flex-col">
 				<Heading level={1} variant="md" class="mt-5 md:mt-0 mb-10 stretch uppercase font-normal text-center sm:max-w-lg" style="line-height : 1">
 					Your trusty guide for<br /><span class="text-ruby">unofficial showcases</span>
 				</Heading>
@@ -56,16 +56,16 @@
 			<div class="font-semibold text-center">There are {new Intl.NumberFormat("en-AU").format(data.gigs.totalCount)} gigs to be explored below.</div>
 
 			<div class="space-y-5 mt-5">
+				<div class="text-sm text-center"><strong>Does your community or region need a gig guide?</strong><br />We can help! <a href="mailto:contact@sydneymusic.net" class="underline">E-mail us</a> for more information</div>
 				<div class="flex place-content-center gap-3">
-					<Button label="Submit a gig" variant="primary" href="mailto:joe@sydneymusic.net" />
+					<Button label="Submit a gig" variant="primary" href="mailto:joe@sydneymusic.net?subject=Submitting a gig for smallnoise" />
 					<Button label="Support us" variant="secondary" href="https://sydneymusic.net/support" />
 				</div>
 				<div class="text-sm text-center">
-					<div><strong>We are hiring!</strong> <a href="https://sydneymusic.net/jobs" class="underline">More info here</a>.</div>
+					<div><a href="https://sydneymusic.net/jobs" class="underline"><strong>We are hiring!</strong></a></div>
 					<div class="text-xs">Made possible with the assistance of Sound NSW.</div>
 				</div>
-				<div class="text-sm text-center"><strong>Does your community or region need a gig guide?</strong><br />We can help! <a href="mailto:contact@sydneymusic.net" class="underline">Get in touch</a></div>
-				<div class="text-xs text-center italic">This resource was created by <a href="https://sydneymusic.net" class="underline" target="_blank">SydneyMusic.net</a><br />with gig sourcing courtesy of Callum from <a href="https://au.skramz.directory/" class="underline" target="_blank">aus skramz directory</a></div>
+				<div class="text-xs text-center italic">Gig research contributed by Callum from <a href="https://au.skramz.directory/" class="underline" target="_blank">aus skramz directory</a><br />This site was created from <a href="https://github.com/sydneymusic-joe/sydneymusic" class="underline">SydneyMusic’s open source codebase</a></div>
 			</div>
 			
 		</div>
